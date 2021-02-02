@@ -24,14 +24,6 @@ body{
   opacity: 0.7;
 }
 
-.skip a{
-  color:black;
-}
-
-.skip:focus {
-  transform: translateY(0%);
-}
-
 a{
   margin:0;
   font-size:100%;
