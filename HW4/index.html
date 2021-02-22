@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <link rel="stylesheet" type="text/css" href="icecream.css">
+    <script src="icecreamadd.js" defer></script>
+    <title>Home</title>
+  </head>
+  <body>
+  <header>
+    <h1 class="header">Angela Li's Ice Cream Shop</h1>
+  </header>
+    <h1>Hi! Welcome to my ice cream shop!</h1>
+
+    <div class="icecreamlideshow">
+
+      <!-- Full-width images with number and caption text -->
+      <div class="icecreamslides">
+        <img src="1icecream.jpg" style="width:100%">
+      </div>
+    
+      <div class="icecreamslides">
+        <img src="2icecream.jpg" style="width:100%">
+      </div>
+    
+      <div class="icecreamslides">
+        <img src="3icecream.jpg" style="width:100%">
+      </div>
+    </div>
+
+    <p id="homecontenttext">Please add what other flavors you would like to see from our shop!</p>
+			<h1>Ice Cream</h1>
+			<button id="hide-diary">Hide Dairy-Free</button>
+			<button id="allbtn">Display All</button>
+			<ul id="icecream-list">
+				<li>Mint Chocolate Chip</li>
+				<li>Cookie Dough</li>
+				<li>Birthday Cake</li>
+				<li class="lactose-free">Lemon Sorbet</li>
+				<li>Rocky Road</li>
+        <li class="lactose-free">Chocolate</li>
+        <li class="lactose-free">Strawberry</li>
+        <li>Rasberry Vanilla</li>
+			</ul>
+
+			<h1>Add New Ice Cream</h1>
+			<div>
+				<label for="icecream-name">Ice Cream Name</label>
+				<input type="text" id="icecream-name"/>
+			</div>
+			<div>
+				<input type="checkbox" id="is-lactose-free"/>
+				<label for="is-lactose-free">Is Lactose-Free</label>
+			</div>
+			<button id="addbtn">Add</button>
+    <footer>
+      <p>angieali@umich.edu</p>
+    </footer>
+  </body>
+</html>

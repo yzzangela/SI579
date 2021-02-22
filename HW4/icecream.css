@@ -1,0 +1,16 @@
+body{
+  background-color: #f4c2c2;
+  padding: 1%;
+}
+
+.lactose-free {
+  color: magenta;
+}
+
+.lactose-free::after {
+  content: " (lactose-free)";
+}
+
+.icecreamlideshow{
+  max-width: 20%;
+}
